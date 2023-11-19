@@ -34,7 +34,7 @@ function Menu() {
         />
       )}
       {open && (
-        <div className="bg-red-950 text-white absolute left-0 top-24 w-full h-[calc(100vh-6rem)] flex items-center justify-center text-3xl flex-col gap-8 z-10">
+        <div className="bg-red-950 text-white absolute left-0 top-24 w-full h-[calc(100vh-6rem)] flex items-center justify-center text-2xl flex-col gap-8 z-10">
           {links.map((item) => {
             return (
               <Link
