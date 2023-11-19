@@ -95,7 +95,7 @@ function CartPage() {
         {products.map(item => (
 
           <div
-            className="flex items-center justify-between mb-5" /*Single Item */>
+            className="flex items-center justify-between mb-5" /*Single Item */ key={item.id}>
             <Image src={item.img} alt="pic" width={100} height={100} />
             <div className="">
               <h1 className="uppercase text-xl font-bold">{item.title}</h1>
