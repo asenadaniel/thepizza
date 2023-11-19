@@ -64,11 +64,13 @@ function Featured() {
     <div
       className="w-screen overflow-x-scroll text-red-900 flex justify-center" /*container */
     >
-      <div className="w-max   lg:grid grid-cols-3    " /*wrapper */>
+      <div
+        className="w-max   lg:grid grid-cols-3  md:grid-cols-3  " /*wrapper */
+      >
         {featuredProducts.map((item) => (
           <div
             key={item.id}
-            className="w-screen h-[60vh] flex flex-col items-center justify-around p-4 hover:bg-fuchsia-50 transition-all duration-300 md:w-[50vw] lg:w-[33vw] xl:h-[90vh]" /* Single item */
+            className="w-screen h-[60vh] flex flex-col items-center justify-around  p-4 hover:bg-fuchsia-50 transition-all duration-300 md:w-[50vw] lg:w-[33vw] xl:h-[90vh] " /* Single item */
           >
             {item.img && (
               <div

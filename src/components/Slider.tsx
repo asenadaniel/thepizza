@@ -34,7 +34,7 @@ function Slider() {
     <div className="flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)] lg:flex-row bg-fuchsia-50">
       {/* Text container */}
       <div className=" flex items-center justify-center flex-col gap-8 text-red-900 font-bold flex-1">
-        <h1 className="text-5xl text-center uppercase p-5 md:p-10 md:text-6xl xl:text-7xl">
+        <h1 className="text-3xl text-center uppercase p-5 md:p-10 md:text-3xl xl:text-7xl">
           {data[currentSlide].title}
         </h1>
         <button className="bg-red-950 text-white py-4 px-5 cursor-pointer ">
