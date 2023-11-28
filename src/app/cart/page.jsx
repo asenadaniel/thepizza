@@ -111,13 +111,13 @@ function CartPage() {
           <div className='flex flex-col gap-6 border-b-[1px] border-b-gray-400 pb-6'>
             <h2 className=' text-2xl text-red-950 font-bold'>Order summary</h2>
             <p className='flex  text-red-900 font items-center gap-4 text-base'>
-              Subtotal <span className=' font-bold text-red-900 text-lg'>₦{total}</span>
+              Subtotal <span className=' font-bold text-red-900 text-lg'>£{total}</span>
             </p>
             <p className=' text-red-900 flex items-start gap-4 text-base'>
               Shipping <span className=' font-semibold'>FREE</span>
             </p>
           </div>
-          <p className=' font-titleFont font-semibold flex justify-between mt-6 '>Total <span className='text-xl font-bold'>₦{total}</span></p>
+          <p className=' font-titleFont font-semibold flex justify-between mt-6 '>Total <span className='text-xl font-bold'>£{total}</span></p>
           <Link href='/'>
             <button className=' text-base bg-red-950 text-white w-full py-3 mt-6 hover:bg-gray-900 duration-200'>Place order</button>
           </Link>

@@ -31,7 +31,7 @@ function CartItem() {
                 />
                 <h2 className="w-52">{item.title}</h2>
                 <div className=" pr-6">
-                  <p className="w-10">₦{item.price}</p>
+                  <p className="w-10">£{item.price}</p>
                 </div>
                 <Close
                   onClick={() => dispatch(removeItem(item.id))}
