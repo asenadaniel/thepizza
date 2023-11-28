@@ -6,7 +6,7 @@ const data = [
   {
     id: 1,
     title: "we deliver your order world-wide",
-    image: "/slide1.png",
+    image: "/pizz.jpg",
   },
   {
     id: 1,
