@@ -16,6 +16,11 @@ function Menu() {
 
   return (
     <div>
+      <Link href="/cart" onClick={() => setOpen(false)}>
+        <div className=" absolute right-12 top-8">
+          <CartIcon />
+        </div>
+      </Link>
       {!open ? (
         <Image
           src="/open.png"
@@ -33,6 +38,7 @@ function Menu() {
           onClick={() => setOpen(false)}
         />
       )}
+
       {open && (
         <div className="bg-red-950 text-white absolute left-0 top-24 w-full h-[calc(100vh-6rem)] flex items-center justify-center text-2xl flex-col gap-8 z-10">
           {links.map((item) => {
@@ -56,9 +62,7 @@ function Menu() {
             </Link>
           )}
 
-          <Link href="/cart" onClick={() => setOpen(false)}>
-            <CartIcon />
-          </Link>
+          <Link href="/cart" onClick={() => setOpen(false)}></Link>
         </div>
       )}
     </div>
