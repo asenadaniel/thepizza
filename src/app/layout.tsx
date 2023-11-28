@@ -24,7 +24,6 @@ export default function RootLayout({
       <body className={inter.className}>
         {/* <GlobalState> */}
         <ReduxProvider>
-          {/* <Notification /> */}
           <Navbar />
           {children}
           <Footer />
